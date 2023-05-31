@@ -7,16 +7,17 @@
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
         <module name="chapter01" />
-        <module name="app-stateless-server" />
         <module name="chapter02" />
-        <module name="app-stateful-server" />
-        <module name="app-web" />
-        <module name="app-model" />
-        <module name="app-stateless-client" />
-        <module name="app-stateful-client" />
+        <module name="common" />
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>
+      <module name="app-model" target="1.5" />
+      <module name="app-stateful-client" target="1.5" />
+      <module name="app-stateful-server" target="1.5" />
+      <module name="app-stateless-client" target="1.5" />
+      <module name="app-stateless-server" target="1.5" />
+      <module name="app-web" target="1.5" />
       <module name="source_apps" target="8" />
       <module name="source_environment" target="8" />
       <module name="source_model" target="8" />
