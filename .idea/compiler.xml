@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="CompilerConfiguration">
+    <annotationProcessing>
+      <profile name="Maven default annotation processors profile" enabled="true">
+        <sourceOutputDir name="target/generated-sources/annotations" />
+        <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
+        <outputRelativeToContentRoot value="true" />
+        <module name="chapter01" />
+        <module name="app-stateless-server" />
+        <module name="chapter02" />
+        <module name="app-stateful-server" />
+        <module name="app-web" />
+        <module name="app-model" />
+        <module name="app-stateless-client" />
+        <module name="app-stateful-client" />
+      </profile>
+    </annotationProcessing>
+    <bytecodeTargetLevel>
+      <module name="source_apps" target="8" />
+      <module name="source_environment" target="8" />
+      <module name="source_model" target="8" />
+      <module name="source_shared" target="8" />
+    </bytecodeTargetLevel>
+  </component>
+</project>
